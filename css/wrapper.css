@@ -1,0 +1,8 @@
+.wrapper {
+  min-block-size: 100vb;
+
+  /* For work position: sticky; */
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}

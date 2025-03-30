@@ -1,0 +1,50 @@
+:root {
+  --container-padding-inline: 16px;
+  --container-inline-size: 1000px;
+
+  /* Padding compensation */
+  --container-max-inline-size: calc(
+    var(--container-inline-size, 1000px) + (var(--container-padding-inline, 16px) * 2)
+  );
+}
+
+.container {
+  padding-inline: var(--container-padding-inline, 16px);
+}
+
+@media (width >= 768px) {
+  .container {
+    padding-inline: 0;
+    display: grid;
+    grid-template-columns:
+      minmax(var(--container-padding-inline, 16px), 1fr) minmax(
+        0,
+        calc(
+          var(
+              --container-max-inline-size,
+              calc(var(--container-inline-size, 1000px) + (var(--container-padding-inline, 16px) * 2))
+            ) /
+            2
+        )
+      )
+      minmax(
+        0,
+        calc(
+          var(
+              --container-max-inline-size,
+              calc(var(--container-inline-size, 1000px) + (var(--container-padding-inline, 16px) * 2))
+            ) /
+            2
+        )
+      )
+      minmax(var(--container-padding-inline, 16px), 1fr);
+  }
+
+  .content {
+    grid-column: 2;
+  }
+
+  .image {
+    grid-column: 3 / span 4;
+  }
+}

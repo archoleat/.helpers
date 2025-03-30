@@ -1,0 +1,99 @@
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+System Volume Information/
+hiberfil.sys
+pagefile.sys
+ntuser.dat*
+*.stackdump
+
+### Visual Studio Code ###
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/*
+.history/
+
+### Environments ###
+.env
+*.env
+.env.*
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+### Node.js ###
+node_modules/
+.npm/
+.npm-debug.log*
+package-lock.json
+.yarn-integrity
+.yarn/cache
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/unplugged
+.pnp.*
+.node_repl_history
+
+### PNPM ###
+.pnpm/
+.pnpm-debug.log*
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+### React/Next.js ###
+.next/
+build/
+dist/
+out/
+.turbo
+
+### Logs & Debug ###
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log
+connect.lock
+
+### Build & Cache ###
+.cache/
+.temp/
+*.tsbuildinfo
+.eslintcache
+.parcel-cache
+.rts2_cache*
+
+### Coverage ###
+coverage/
+.nyc_output
+*.lcov
+
+### Git ###
+.git/
+.gitattributes
+.gitignore
+.gitmodules
+.git-blame-ignore-revs
+.gitkeep
+.git-credentials
+
+# Exclude IDE temp files
+*~
+*.tmp
+*.bak

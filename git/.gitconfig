@@ -1,0 +1,47 @@
+[branch]
+  autoSetupRemote = true
+  sort = -committerdate
+[commit]
+  verbose = true
+[core]
+  autocrlf = true
+  excludesFile = ~/.gitignore_global
+  filemode = false
+  pager = cat
+  quotepath = off
+  whitespace = -trailing-space
+[diff]
+  algorithm = histogram
+  renames = true
+  tool = vscode
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  process = git-lfs filter-process
+  required = true
+  smudge = git-lfs smudge -- %f
+[gh]
+  protocol = ssh
+[http]
+	sslVerify = false
+[init]
+  defaultBranch = main
+[log]
+  abbrevCommit = true
+  decorate = false
+  follow = true
+[merge]
+  conflictstyle = diff3
+  tool = vscode
+[push]
+  default = upstream
+  followTags = true
+[rerere]
+  autoupdate = true
+  enabled = true
+[status]
+  showUntrackedFiles = all
+[tag]
+  sort = version:refname
+[user]
+  email = @users.noreply.github.com
+  name = name

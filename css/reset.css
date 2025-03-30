@@ -1,0 +1,161 @@
+:root {
+  --font-system-ui: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  --default-font-family: "Roboto", var(--font-system-ui, sans-serif);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  box-sizing: border-box;
+
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none;
+    animation: none;
+  }
+}
+
+:focus-visible {
+  outline: 0.125rem solid #000;
+  outline-offset: 0.125rem;
+}
+
+[aria-hidden="true"] {
+  display: none;
+}
+
+html {
+  scrollbar-gutter: stable;
+  color-scheme: dark light;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:has(:target) {
+    scroll-behavior: smooth;
+
+    /* Specify the height of the header */
+    scroll-padding-block-start: 70px;
+  }
+}
+
+body {
+  background-color: #fff;
+
+  min-inline-size: 20rem;
+
+  font-family: var(--default-font-family, "Roboto");
+
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+
+  line-height: 1;
+}
+
+/*
+  Disabling overscroll only for desktop so that the user
+  on the phone has the ability to refresh the page
+*/
+@media (any-hover: hover) and (pointer: fine) {
+  body {
+    overscroll-behavior: none;
+  }
+}
+
+/* Pins the footer to the bottom if the wrapper has display: flex; */
+main {
+  flex-grow: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+/* Remove spoiler's marker in Safari */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+video,
+picture,
+img {
+  background-repeat: no-repeat;
+
+  block-size: 100%;
+  inline-size: 100%;
+
+  vertical-align: middle;
+
+  font-style: italic;
+
+  object-fit: cover;
+  object-position: top;
+}
+
+input,
+svg {
+  inline-size: 100%;
+  display: block;
+}
+
+input,
+textarea {
+  /* Removes rounded corners from input fields in Safari */
+  border-radius: 0;
+}
+
+input {
+  appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea::-webkit-resizer {
+  appearance: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button,
+a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (any-hover: hover) and (pointer: fine) {
+  button:hover,
+  label:hover {
+    cursor: pointer;
+  }
+}

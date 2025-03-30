@@ -1,0 +1,118 @@
+{
+  // Security
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  // Update
+  "update.showReleaseNotes": false,
+  // Window
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  // Workbench
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.folding": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.hover.above": false,
+  "editor.hover.enabled": false,
+  "editor.hover.sticky": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.insertSpaces": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": true,
+  "editor.parameterHints.cycle": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#№$%^&*()-_=+[{]}\\|;:'\",.<>/?",
+  // Explorer
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  // Files
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // Git
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 10,
+  "git.confirmSync": false,
+  "git.ignoreLimitWarning": true,
+  "git.pruneOnFetch": true,
+  "scm.defaultViewMode": "tree",
+  // Terminal
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  // JavaScript and TypeScript
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.suggest.paths": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.paths": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"],
+  "[javascript,typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  // SCSS/CSS
+  "css.lint.important": "warning",
+  "scss.format.enable": false,
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "scss.lint.duplicateProperties": "error",
+  "scss.lint.important": "warning",
+  "scss.showErrors": true,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "scssFormatter.printWidth": 85,
+  // ESLint
+  "eslint.validate": ["typescript", "typescriptreact"],
+  // StyleLint
+  "stylelint.validate": ["scss", "css"],
+  // Path-intellisense
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.ignoreTsConfigBaseUrl": true,
+  "path-intellisense.showHiddenFiles": true,
+  // Code Spell Checker
+  "cSpell.language": "en,ru",
+  // Other
+  "chat.commandCenter.enabled": false
+}
+
