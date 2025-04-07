@@ -111,8 +111,6 @@
   "path-intellisense.ignoreTsConfigBaseUrl": true,
   "path-intellisense.showHiddenFiles": true,
   // Code Spell Checker
-  "cSpell.language": "en,ru",
-  // Other
-  "chat.commandCenter.enabled": false
+  "cSpell.language": "en,ru"
 }
 
