@@ -150,6 +150,7 @@ a {
 }
 
 @media (any-hover: hover) and (pointer: fine) {
+  summary:hover,
   button:hover,
   label:hover {
     cursor: pointer;
