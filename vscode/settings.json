@@ -7,6 +7,8 @@
   // Window
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
+  // Chat
+  "chat.commandCenter.enabled": false,
   // Workbench
   "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "GitHub Dark",
@@ -111,6 +113,10 @@
   "path-intellisense.ignoreTsConfigBaseUrl": true,
   "path-intellisense.showHiddenFiles": true,
   // Code Spell Checker
+  "cSpell.enabledNotifications": {
+    "Average Word Length too Long": false,
+    "Lines too Long": false,
+    "Maximum Word Length Exceeded": false
+  },
   "cSpell.language": "en,ru"
 }
-
