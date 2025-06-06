@@ -23,6 +23,7 @@
     "stylelint.vscode-stylelint",
     "usernamehw.errorlens",
     "vue.volar",
-    "vunguyentuan.vscode-css-variables"
+    "vunguyentuan.vscode-css-variables",
+    "yutengjing.vscode-archive"
   ]
 }
