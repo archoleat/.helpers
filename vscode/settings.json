@@ -92,10 +92,13 @@
   "scssFormatter.printWidth": 85,
   "eslint.validate": ["typescript", "typescriptreact"],
   "stylelint.validate": ["scss", "css"],
-  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.autoSlashAfterDirectory": false,
   "path-intellisense.autoTriggerNextSuggestion": true,
   "path-intellisense.ignoreTsConfigBaseUrl": true,
   "path-intellisense.showHiddenFiles": true,
+  "path-intellisense.mappings": {
+    "/": "${workspaceFolder}/public"
+  },
   "cSpell.enabledNotifications": {
     "Average Word Length too Long": false,
     "Lines too Long": false,
