@@ -1,15 +1,10 @@
 {
-  // Security
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.untrustedFiles": "open",
-  // Update
   "update.showReleaseNotes": false,
-  // Window
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  // Chat
   "chat.commandCenter.enabled": false,
-  // Workbench
   "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "GitHub Dark",
   "workbench.editorAssociations": {
@@ -24,7 +19,6 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
-  // Editor
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
@@ -56,17 +50,14 @@
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordSeparators": "`~!@#№$%^&*()-_=+[{]}\\|;:'\",.<>/?",
-  // Explorer
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
-  // Files
   "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  // Git
   "diffEditor.ignoreTrimWhitespace": false,
   "git.autofetch": true,
   "git.autofetchPeriod": 10,
@@ -74,15 +65,12 @@
   "git.ignoreLimitWarning": true,
   "git.pruneOnFetch": true,
   "scm.defaultViewMode": "tree",
-  // Terminal
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  // Extensions
   "extensions.ignoreRecommendations": true,
-  // JavaScript and TypeScript
   "typescript.referencesCodeLens.enabled": true,
   "javascript.suggest.paths": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -92,7 +80,6 @@
   "[javascript,typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  // SCSS/CSS
   "css.lint.important": "warning",
   "scss.format.enable": false,
   "scss.format.spaceAroundSelectorSeparator": true,
@@ -103,16 +90,12 @@
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "scssFormatter.printWidth": 85,
-  // ESLint
   "eslint.validate": ["typescript", "typescriptreact"],
-  // StyleLint
   "stylelint.validate": ["scss", "css"],
-  // Path-intellisense
   "path-intellisense.autoSlashAfterDirectory": true,
   "path-intellisense.autoTriggerNextSuggestion": true,
   "path-intellisense.ignoreTsConfigBaseUrl": true,
   "path-intellisense.showHiddenFiles": true,
-  // Code Spell Checker
   "cSpell.enabledNotifications": {
     "Average Word Length too Long": false,
     "Lines too Long": false,
