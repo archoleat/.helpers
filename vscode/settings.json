@@ -6,7 +6,7 @@
   "window.menuBarVisibility": "compact",
   "chat.commandCenter.enabled": false,
   "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "GitHub Light",
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
@@ -21,7 +21,7 @@
   "workbench.tips.enabled": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.fixAll.stylelint": "explicit"
+    // "source.fixAll.stylelint": "explicit"
   },
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -81,17 +81,17 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "css.lint.important": "warning",
-  "scss.format.enable": false,
-  "scss.format.spaceAroundSelectorSeparator": true,
-  "scss.lint.duplicateProperties": "error",
-  "scss.lint.important": "warning",
-  "scss.showErrors": true,
-  "[scss]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-  },
-  "scssFormatter.printWidth": 85,
+  // "scss.format.enable": false,
+  // "scss.format.spaceAroundSelectorSeparator": true,
+  // "scss.lint.duplicateProperties": "error",
+  // "scss.lint.important": "warning",
+  // "scss.showErrors": true,
+  // "[scss]": {
+  //   "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  // },
+  // "scssFormatter.printWidth": 85,
   "eslint.validate": ["typescript", "typescriptreact"],
-  "stylelint.validate": ["scss", "css"],
+  // "stylelint.validate": ["scss", "css"],
   "path-intellisense.autoSlashAfterDirectory": false,
   "path-intellisense.autoTriggerNextSuggestion": true,
   "path-intellisense.ignoreTsConfigBaseUrl": true,
