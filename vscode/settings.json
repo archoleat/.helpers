@@ -20,7 +20,7 @@
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
+    "source.fixAll.eslint": "explicit"
     // "source.fixAll.stylelint": "explicit"
   },
   "editor.cursorBlinking": "expand",
@@ -30,6 +30,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.folding": true,
+  "editor.fontFamily": "Google Sans Code",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
