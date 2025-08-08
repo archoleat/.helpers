@@ -72,14 +72,18 @@
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "extensions.ignoreRecommendations": true,
-  "typescript.referencesCodeLens.enabled": true,
   "javascript.suggest.paths": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.referencesCodeLens.enabled": true,
   "typescript.suggest.paths": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"],
+  // "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"],
   "[javascript,typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "css.lint.important": "warning",
   // "scss.format.enable": false,
