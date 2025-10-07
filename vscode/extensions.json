@@ -22,7 +22,6 @@
     "streetsidesoftware.code-spell-checker",
     "stylelint.vscode-stylelint",
     "usernamehw.errorlens",
-    "vunguyentuan.vscode-css-variables",
-    "yutengjing.vscode-archive"
+    "vunguyentuan.vscode-css-variables"
   ]
 }
