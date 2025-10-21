@@ -6,6 +6,8 @@
     "diz.ecsstractor-port",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
+    "github.copilot",
+    "github.copilot-chat",
     "github.github-vscode-theme",
     "gitlab.gitlab-workflow",
     "graphql.vscode-graphql-syntax",
