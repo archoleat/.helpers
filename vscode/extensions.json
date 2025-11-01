@@ -3,7 +3,6 @@
     "bradlc.vscode-tailwindcss",
     "christian-kohler.path-intellisense",
     "dbaeumer.vscode-eslint",
-    "diz.ecsstractor-port",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "github.copilot",
@@ -14,16 +13,10 @@
     "graphql.vscode-graphql",
     "kamikillerto.vscode-colorize",
     "meganrogge.template-string-converter",
-    "mhutchie.git-graph",
-    "mrmlnc.vscode-scss",
     "pkief.material-icon-theme",
-    "pranaygp.vscode-css-peek",
-    "sibiraj-s.vscode-scss-formatter",
     "sonarsource.sonarlint-vscode",
     "streetsidesoftware.code-spell-checker-russian",
     "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint",
-    "usernamehw.errorlens",
-    "vunguyentuan.vscode-css-variables"
+    "usernamehw.errorlens"
   ]
 }
