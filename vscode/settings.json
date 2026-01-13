@@ -35,7 +35,7 @@
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.hover.above": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   "editor.hover.sticky": false,
   "editor.inlayHints.enabled": "off",
   "editor.insertSpaces": true,
@@ -85,7 +85,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "css.lint.important": "warning",
-  "eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.validate": ["typescript", "typescriptreact", "graphql"],
   "path-intellisense.autoSlashAfterDirectory": false,
   "path-intellisense.autoTriggerNextSuggestion": true,
   "path-intellisense.ignoreTsConfigBaseUrl": true,
@@ -98,5 +98,7 @@
     "Lines too Long": false,
     "Maximum Word Length Exceeded": false
   },
-  "cSpell.language": "en,ru"
+  "cSpell.language": "en,ru",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false
 }
