@@ -4,11 +4,10 @@
   "update.showReleaseNotes": false,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "chat.commandCenter.enabled": false,
   "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "GitHub Light",
   "workbench.editorAssociations": {
-    "*.svg": "default"
+    "*.svg": "default",
   },
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.enablePreview": false,
@@ -21,7 +20,7 @@
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -72,17 +71,15 @@
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "extensions.ignoreRecommendations": true,
-  "javascript.suggest.paths": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.preferences.preferTypeOnlyAutoImports": true,
-  "typescript.referencesCodeLens.enabled": true,
-  "typescript.suggest.paths": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.suggest.paths": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferences.preferTypeOnlyAutoImports": true,
+  "js/ts.referencesCodeLens.enabled": true,
   "[javascript,typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
   "[graphql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "css.lint.important": "warning",
   "eslint.validate": ["typescript", "typescriptreact", "graphql"],
@@ -91,14 +88,19 @@
   "path-intellisense.ignoreTsConfigBaseUrl": true,
   "path-intellisense.showHiddenFiles": true,
   "path-intellisense.mappings": {
-    "/": "${workspaceFolder}/public"
+    "/": "${workspaceFolder}/public",
   },
   "cSpell.enabledNotifications": {
     "Average Word Length too Long": false,
     "Lines too Long": false,
-    "Maximum Word Length Exceeded": false
+    "Maximum Word Length Exceeded": false,
   },
   "cSpell.language": "en,ru",
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.viewSessions.orientation": "stacked",
+  "diffEditor.maxComputationTime": 0,
+  "terminal.integrated.initialHint": false,
+  "chat.tips.enabled": false,
 }
