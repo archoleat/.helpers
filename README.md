@@ -1,78 +1,78 @@
 # Helpers
 
-Репозиторий с конфигурациями и настройками для различных инструментов разработки.
+A repository with configurations and settings for various development tools.
 
-## 📂 Структура
+## 📂 Structure
 
 ### VSCode (`vscode/`)
 
-Конфигурационные файлы для Visual Studio Code:
+Configuration files for Visual Studio Code:
 
-- **`settings.json`** — основные настройки редактора (форматирование, отступы, расширения)
-- **`launch.json`** — конфигурации для запуска и отладки проектов
-- **`extensions.json`** — рекомендуемые расширения для проекта
+- **`settings.json`** — main editor settings (formatting, indentation, extensions)
+- **`launch.json`** — configurations for running and debugging projects
+- **`extensions.json`** — recommended extensions for the project
 
 ### Git Bash (`bash/`)
 
-Темы и конфигурации для Git Bash терминала:
+Themes and configurations for Git Bash terminal:
 
-- **`.minttyrc`** — конфигурация при тёмной теме
-- **`.minttyrc (light)`** — конфигурация при светлой теме
+- **`.minttyrc`** — configuration for dark theme
+- **`.minttyrc (light)`** — configuration for light theme
 
 ### Git (`git/`)
 
-Глобальные настройки Git:
+Global Git settings:
 
-- **`.gitconfig`** — конфигурация пользователя Git (имя, email, алиасы)
-- **`.gitignore_global`** — глобальный файл исключений для всех репозиториев
+- **`.gitconfig`** — Git user configuration (name, email, aliases)
+- **`.gitignore_global`** — global exclusion file for all repositories
 
 ### GitHub Rulesets (`rulesets/`)
 
-Правила защиты для GitHub:
+Protection rules for GitHub:
 
-- **`Branch Protection.json`** — правила защиты веток
-- **`Tag Protection.json`** — правила защиты тегов
+- **`Branch Protection.json`** — branch protection rules
+- **`Tag Protection.json`** — tag protection rules
 
-## 🚀 Использование
+## 🚀 Usage
 
-### Установка VSCode конфигурации
+### Installing VSCode Configuration
 
-Скопируйте файлы из папки `vscode/` в ваш пользовательский каталог VS Code:
+Copy files from the `vscode/` folder to your VS Code user directory:
 
 - Windows: `%APPDATA%\Code\User\`
 - macOS: `~/Library/Application Support/Code/User/`
 - Linux: `~/.config/Code/User/`
 
-### Установка Git конфигурации
+### Installing Git Configuration
 
 ```bash
-# Копируем глобальный gitconfig
+# Copy global gitconfig
 cp git/.gitconfig ~/.gitconfig
 
-# Копируем глобальный gitignore
+# Copy global gitignore
 cp git/.gitignore_global ~/.gitignore_global
 
-# Подключаем gitignore в конфигурацию Git
+# Enable gitignore in Git configuration
 git config --global core.excludesfile ~/.gitignore_global
 ```
 
-### Установка Git Bash темы
+### Installing Git Bash Theme
 
-Скопируйте нужный файл `.minttyrc` в домашний каталог:
+Copy the required `.minttyrc` file to your home directory:
 
 ```bash
-cp bash/.minttyrc ~/ # для тёмной темы
-cp bash/.minttyrc\ \(light\) ~/.minttyrc # для светлой темы
+cp bash/.minttyrc ~/ # for dark theme
+cp bash/.minttyrc\ \(light\) ~/.minttyrc # for light theme
 ```
 
-### Применение GitHub Rulesets
+### Applying GitHub Rulesets
 
-1. Перейдите в ваш репозиторий на GitHub
+1. Go to your repository on GitHub
 2. Settings → Rules → New branch ruleset / New tag ruleset
-3. Загрузите соответствующий JSON файл из папки `rulesets/`
+3. Upload the corresponding JSON file from the `rulesets/` folder
 
-## 📝 Примечания
+## 📝 Notes
 
-- Все конфигурации можно кастомизировать под ваши нужды
-- При обновлении системы рекомендуется проверить совместимость конфигов
-- Убедитесь, что у вас установлены все необходимые расширения для VSCode
+- All configurations can be customized for your needs
+- When updating your system, it's recommended to check configuration compatibility
+- Make sure you have all necessary extensions installed for VSCode
