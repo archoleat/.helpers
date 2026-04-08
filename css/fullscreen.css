@@ -1,7 +1,0 @@
-:root {
-  --header-min-block-size: 60px;
-}
-
-.fullscreen {
-  min-block-size: calc(100svb - var(--header-min-block-size, 60px));
-}
