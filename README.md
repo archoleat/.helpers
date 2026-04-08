@@ -2,7 +2,7 @@
 
 A repository with configurations and settings for various development tools.
 
-## 📂 Structure
+## Structure
 
 ### VSCode (`vscode/`)
 
@@ -33,7 +33,7 @@ Protection rules for GitHub:
 - **`Branch Protection.json`** — branch protection rules
 - **`Tag Protection.json`** — tag protection rules
 
-## 🚀 Usage
+## Usage
 
 ### Installing VSCode Configuration
 
@@ -71,7 +71,7 @@ cp bash/.minttyrc\ \(light\) ~/.minttyrc # for light theme
 2. Settings → Rules → New branch ruleset / New tag ruleset
 3. Upload the corresponding JSON file from the `rulesets/` folder
 
-## 📝 Notes
+## Notes
 
 - All configurations can be customized for your needs
 - When updating your system, it's recommended to check configuration compatibility
