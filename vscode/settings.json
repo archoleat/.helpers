@@ -5,6 +5,7 @@
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "workbench.activityBar.location": "hidden",
+  "workbench.browser.openLocalhostLinks": false,
   "workbench.colorTheme": "GitHub Light",
   "workbench.editorAssociations": {
     "*.svg": "default",
