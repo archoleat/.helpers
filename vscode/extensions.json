@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "anthropic.claude-code",
     "bradlc.vscode-tailwindcss",
     "christian-kohler.path-intellisense",
     "dbaeumer.vscode-eslint",
@@ -15,7 +14,6 @@
     "mhutchie.git-graph",
     "pkief.material-icon-theme",
     "sonarsource.sonarlint-vscode",
-    "streetsidesoftware.code-spell-checker-russian",
     "streetsidesoftware.code-spell-checker",
     "usernamehw.errorlens"
   ]
