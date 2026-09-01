@@ -12,13 +12,6 @@ Configuration files for Visual Studio Code:
 - **`launch.json`** — configurations for running and debugging projects
 - **`extensions.json`** — recommended extensions for the project
 
-### Git Bash (`bash/`)
-
-Themes and configurations for Git Bash terminal:
-
-- **`.minttyrc`** — configuration for dark theme
-- **`.minttyrc (light)`** — configuration for light theme
-
 ### Git (`git/`)
 
 Global Git settings:
@@ -54,15 +47,6 @@ cp git/.gitignore_global ~/.gitignore_global
 
 # Enable gitignore in Git configuration
 git config --global core.excludesfile ~/.gitignore_global
-```
-
-### Installing Git Bash Theme
-
-Copy the required `.minttyrc` file to your home directory:
-
-```bash
-cp bash/.minttyrc ~/ # for dark theme
-cp bash/.minttyrc\ \(light\) ~/.minttyrc # for light theme
 ```
 
 ### Applying GitHub Rulesets
