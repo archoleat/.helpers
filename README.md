@@ -38,14 +38,16 @@ Copy files from the `vscode/` folder to your VS Code user directory:
 
 ### Installing Git Configuration
 
+Review `git/.gitconfig` and apply only the settings you need to your existing
+`~/.gitconfig`. Do not replace your configuration: the template includes a sample
+identity, and your current file may contain credentials, includes, or aliases.
+Keep HTTPS certificate verification enabled (Git's default).
+
+The global ignore file is also a template. Merge the entries you need into your
+existing ignore file; keep project-specific policies in each repository.
+After reviewing the file, enable it with:
+
 ```bash
-# Copy global gitconfig
-cp git/.gitconfig ~/.gitconfig
-
-# Copy global gitignore
-cp git/.gitignore_global ~/.gitignore_global
-
-# Enable gitignore in Git configuration
 git config --global core.excludesfile ~/.gitignore_global
 ```
 

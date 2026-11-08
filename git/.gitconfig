@@ -21,8 +21,6 @@
   smudge = git-lfs smudge -- %f
 [gh]
   protocol = ssh
-[http]
-	sslVerify = false
 [init]
   defaultBranch = main
 [log]

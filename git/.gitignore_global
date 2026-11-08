@@ -18,18 +18,19 @@ ntuser.dat*
 *.stackdump
 
 ### Visual Studio Code ###
+.vscode/*
 !.vscode/*.code-snippets
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/settings.json
 !.vscode/tasks.json
-.vscode/*
 .history/
 
 ### Environments ###
 .env
 *.env
 .env.*
+!.env.example
 .env.local
 .env.development.local
 .env.production.local
@@ -39,7 +40,6 @@ ntuser.dat*
 node_modules/
 .npm/
 .npm-debug.log*
-package-lock.json
 .yarn-integrity
 .yarn/cache
 .yarn/build-state.yml
@@ -51,8 +51,6 @@ package-lock.json
 ### PNPM ###
 .pnpm/
 .pnpm-debug.log*
-pnpm-lock.yaml
-pnpm-workspace.yaml
 
 ### React/Next.js ###
 .next/
@@ -86,11 +84,6 @@ coverage/
 
 ### Git ###
 .git/
-.gitattributes
-.gitignore
-.gitmodules
-.git-blame-ignore-revs
-.gitkeep
 .git-credentials
 
 # Exclude IDE temp files
