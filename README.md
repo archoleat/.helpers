@@ -62,3 +62,7 @@ git config --global core.excludesfile ~/.gitignore_global
 - All configurations can be customized for your needs
 - When updating your system, it's recommended to check configuration compatibility
 - Make sure you have all necessary extensions installed for VSCode
+
+## License
+
+[MIT](LICENSE).
